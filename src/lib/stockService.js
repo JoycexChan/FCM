@@ -19,6 +19,4 @@ async function getCurrentStockPrice(stockSymbol) {
     }
 }
 
-module.exports = {
-    getCurrentStockPrice
-};
+export { getCurrentStockPrice };  // 使用 export 而不是 module.exports
